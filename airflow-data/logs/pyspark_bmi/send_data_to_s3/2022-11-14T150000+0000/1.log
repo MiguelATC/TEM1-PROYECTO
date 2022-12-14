@@ -1,0 +1,264 @@
+[2022-12-13 04:42:00,287] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:42:00,300] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:42:00,300] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:42:00,300] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 04:42:00,301] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:42:00,307] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): send_data_to_s3> on 2022-11-14T15:00:00+00:00
+[2022-12-13 04:42:00,311] {standard_task_runner.py:51} INFO - Started process 3112 to run task
+[2022-12-13 04:42:00,313] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'send_data_to_s3', '2022-11-14T15:00:00+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmp5_i9lse_']
+[2022-12-13 04:42:00,315] {standard_task_runner.py:76} INFO - Job 6: Subtask send_data_to_s3
+[2022-12-13 04:42:00,348] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [running]> on host 1990905622a9
+[2022-12-13 04:42:00,378] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=send_data_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 04:42:01,243] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 04:42:01,251] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=send_data_to_s3, execution_date=20221114T150000, start_date=20221213T044200, end_date=20221213T044201
+[2022-12-13 04:42:01,271] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 04:42:01,287] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 04:48:21,584] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:48:21,593] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:48:21,594] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:48:21,594] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 04:48:21,595] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:48:21,606] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): send_data_to_s3> on 2022-11-14T15:00:00+00:00
+[2022-12-13 04:48:21,610] {standard_task_runner.py:51} INFO - Started process 2946 to run task
+[2022-12-13 04:48:21,611] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'send_data_to_s3', '2022-11-14T15:00:00+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpdm86y0up']
+[2022-12-13 04:48:21,613] {standard_task_runner.py:76} INFO - Job 6: Subtask send_data_to_s3
+[2022-12-13 04:48:21,646] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [running]> on host 457b414c86a4
+[2022-12-13 04:48:21,680] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=send_data_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 04:48:22,591] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 04:48:22,600] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=send_data_to_s3, execution_date=20221114T150000, start_date=20221213T044821, end_date=20221213T044822
+[2022-12-13 04:48:22,620] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 04:48:22,666] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 04:54:04,212] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:54:04,226] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:54:04,227] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:54:04,227] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 04:54:04,227] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:54:04,239] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): send_data_to_s3> on 2022-11-14T15:00:00+00:00
+[2022-12-13 04:54:04,242] {standard_task_runner.py:51} INFO - Started process 2174 to run task
+[2022-12-13 04:54:04,245] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'send_data_to_s3', '2022-11-14T15:00:00+00:00', '--job-id', '7', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmp2n8z4hr6']
+[2022-12-13 04:54:04,247] {standard_task_runner.py:76} INFO - Job 7: Subtask send_data_to_s3
+[2022-12-13 04:54:04,283] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [running]> on host 055fb06c03c6
+[2022-12-13 04:54:04,318] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=send_data_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 04:54:05,095] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 04:54:05,103] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=send_data_to_s3, execution_date=20221114T150000, start_date=20221213T045404, end_date=20221213T045405
+[2022-12-13 04:54:05,121] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 04:54:05,139] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 06:35:56,169] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 06:35:56,178] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 06:35:56,178] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 06:35:56,178] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 06:35:56,179] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 06:35:56,189] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): send_data_to_s3> on 2022-11-14T15:00:00+00:00
+[2022-12-13 06:35:56,192] {standard_task_runner.py:51} INFO - Started process 4180 to run task
+[2022-12-13 06:35:56,194] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'send_data_to_s3', '2022-11-14T15:00:00+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpkwg1c26j']
+[2022-12-13 06:35:56,197] {standard_task_runner.py:76} INFO - Job 6: Subtask send_data_to_s3
+[2022-12-13 06:35:56,228] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [running]> on host b7822b6a2db4
+[2022-12-13 06:35:56,257] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=send_data_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 06:35:57,266] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 06:35:57,274] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=send_data_to_s3, execution_date=20221114T150000, start_date=20221213T063556, end_date=20221213T063557
+[2022-12-13 06:35:57,292] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 06:35:57,329] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 07:01:28,168] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 07:01:28,182] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 07:01:28,183] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 07:01:28,183] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 07:01:28,183] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 07:01:28,192] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): send_data_to_s3> on 2022-11-14T15:00:00+00:00
+[2022-12-13 07:01:28,196] {standard_task_runner.py:51} INFO - Started process 2977 to run task
+[2022-12-13 07:01:28,198] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'send_data_to_s3', '2022-11-14T15:00:00+00:00', '--job-id', '7', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmp9uqapwou']
+[2022-12-13 07:01:28,200] {standard_task_runner.py:76} INFO - Job 7: Subtask send_data_to_s3
+[2022-12-13 07:01:28,236] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [running]> on host 333952be7749
+[2022-12-13 07:01:28,272] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=send_data_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 07:01:29,426] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 07:01:29,434] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=send_data_to_s3, execution_date=20221114T150000, start_date=20221213T070128, end_date=20221213T070129
+[2022-12-13 07:01:29,456] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 07:01:29,494] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 07:13:04,763] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 07:13:04,777] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 07:13:04,777] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 07:13:04,777] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 07:13:04,777] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 07:13:04,785] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): send_data_to_s3> on 2022-11-14T15:00:00+00:00
+[2022-12-13 07:13:04,789] {standard_task_runner.py:51} INFO - Started process 2621 to run task
+[2022-12-13 07:13:04,791] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'send_data_to_s3', '2022-11-14T15:00:00+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmp60dkik34']
+[2022-12-13 07:13:04,793] {standard_task_runner.py:76} INFO - Job 6: Subtask send_data_to_s3
+[2022-12-13 07:13:04,827] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [running]> on host f5c4f12786d0
+[2022-12-13 07:13:04,861] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=send_data_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 07:13:05,846] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 07:13:05,855] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=send_data_to_s3, execution_date=20221114T150000, start_date=20221213T071304, end_date=20221213T071305
+[2022-12-13 07:13:05,875] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 07:13:05,886] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 15:34:37,437] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 15:34:37,446] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 15:34:37,446] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 15:34:37,446] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 15:34:37,447] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 15:34:37,457] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): send_data_to_s3> on 2022-11-14T15:00:00+00:00
+[2022-12-13 15:34:37,461] {standard_task_runner.py:51} INFO - Started process 3391 to run task
+[2022-12-13 15:34:37,464] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'send_data_to_s3', '2022-11-14T15:00:00+00:00', '--job-id', '7', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpsf7qwfo2']
+[2022-12-13 15:34:37,466] {standard_task_runner.py:76} INFO - Job 7: Subtask send_data_to_s3
+[2022-12-13 15:34:37,498] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [running]> on host 561e4a6a919b
+[2022-12-13 15:34:37,531] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=send_data_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 15:34:38,719] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 15:34:38,727] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=send_data_to_s3, execution_date=20221114T150000, start_date=20221213T153437, end_date=20221213T153438
+[2022-12-13 15:34:38,748] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 15:34:38,759] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 20:15:34,018] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 20:15:34,031] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 20:15:34,032] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 20:15:34,032] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 20:15:34,033] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 20:15:34,041] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): send_data_to_s3> on 2022-11-14T15:00:00+00:00
+[2022-12-13 20:15:34,044] {standard_task_runner.py:51} INFO - Started process 2546 to run task
+[2022-12-13 20:15:34,046] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'send_data_to_s3', '2022-11-14T15:00:00+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmp7jl4nndi']
+[2022-12-13 20:15:34,048] {standard_task_runner.py:76} INFO - Job 6: Subtask send_data_to_s3
+[2022-12-13 20:15:34,080] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [running]> on host d0d005b5ea68
+[2022-12-13 20:15:34,112] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=send_data_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 20:15:35,267] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 20:15:35,277] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=send_data_to_s3, execution_date=20221114T150000, start_date=20221213T201534, end_date=20221213T201535
+[2022-12-13 20:15:35,298] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 20:15:35,342] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 21:17:15,298] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 21:17:15,310] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 21:17:15,310] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 21:17:15,311] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 21:17:15,311] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 21:17:15,317] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): send_data_to_s3> on 2022-11-14T15:00:00+00:00
+[2022-12-13 21:17:15,321] {standard_task_runner.py:51} INFO - Started process 2756 to run task
+[2022-12-13 21:17:15,323] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'send_data_to_s3', '2022-11-14T15:00:00+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmp1sjstqqw']
+[2022-12-13 21:17:15,325] {standard_task_runner.py:76} INFO - Job 6: Subtask send_data_to_s3
+[2022-12-13 21:17:15,355] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [running]> on host 07717ad0168e
+[2022-12-13 21:17:15,384] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=send_data_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 21:17:16,521] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 21:17:16,528] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=send_data_to_s3, execution_date=20221114T150000, start_date=20221213T211715, end_date=20221213T211716
+[2022-12-13 21:17:16,545] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 21:17:16,578] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 21:27:35,203] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 21:27:35,211] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 21:27:35,211] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 21:27:35,212] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 21:27:35,212] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 21:27:35,222] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): send_data_to_s3> on 2022-11-14T15:00:00+00:00
+[2022-12-13 21:27:35,225] {standard_task_runner.py:51} INFO - Started process 3146 to run task
+[2022-12-13 21:27:35,227] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'send_data_to_s3', '2022-11-14T15:00:00+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmp9x_0nei0']
+[2022-12-13 21:27:35,229] {standard_task_runner.py:76} INFO - Job 6: Subtask send_data_to_s3
+[2022-12-13 21:27:35,260] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [running]> on host 28614e99b51d
+[2022-12-13 21:27:35,290] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=send_data_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 21:27:36,442] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 21:27:36,450] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=send_data_to_s3, execution_date=20221114T150000, start_date=20221213T212735, end_date=20221213T212736
+[2022-12-13 21:27:36,468] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 21:27:36,482] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 22:21:22,287] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 22:21:22,297] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 22:21:22,297] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 22:21:22,298] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 22:21:22,298] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 22:21:22,310] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): send_data_to_s3> on 2022-11-14T15:00:00+00:00
+[2022-12-13 22:21:22,315] {standard_task_runner.py:51} INFO - Started process 2588 to run task
+[2022-12-13 22:21:22,317] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'send_data_to_s3', '2022-11-14T15:00:00+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpp_llzbj3']
+[2022-12-13 22:21:22,319] {standard_task_runner.py:76} INFO - Job 6: Subtask send_data_to_s3
+[2022-12-13 22:21:22,352] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [running]> on host ea0ed9d3a445
+[2022-12-13 22:21:22,386] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=send_data_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 22:21:23,570] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 22:21:23,579] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=send_data_to_s3, execution_date=20221114T150000, start_date=20221213T222122, end_date=20221213T222123
+[2022-12-13 22:21:23,604] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 22:21:23,614] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 22:59:48,448] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 22:59:48,457] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 22:59:48,457] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 22:59:48,457] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 22:59:48,458] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 22:59:48,469] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): send_data_to_s3> on 2022-11-14T15:00:00+00:00
+[2022-12-13 22:59:48,472] {standard_task_runner.py:51} INFO - Started process 4348 to run task
+[2022-12-13 22:59:48,475] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'send_data_to_s3', '2022-11-14T15:00:00+00:00', '--job-id', '7', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpk2ueyu7g']
+[2022-12-13 22:59:48,477] {standard_task_runner.py:76} INFO - Job 7: Subtask send_data_to_s3
+[2022-12-13 22:59:48,512] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T15:00:00+00:00 [running]> on host e696ef1fe0ba
+[2022-12-13 22:59:48,544] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=send_data_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 23:00:06,475] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 23:00:06,483] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=send_data_to_s3, execution_date=20221114T150000, start_date=20221213T225948, end_date=20221213T230006
+[2022-12-13 23:00:06,500] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 23:00:06,525] {local_task_job.py:118} INFO - Task exited with return code 0

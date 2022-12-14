@@ -1,0 +1,64 @@
+[2022-11-14 03:42:54,548] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-13T12:00:00+00:00 [queued]>
+[2022-11-14 03:42:54,563] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-13T12:00:00+00:00 [queued]>
+[2022-11-14 03:42:54,563] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-14 03:42:54,563] {taskinstance.py:1018} INFO - Starting attempt 4 of 4
+[2022-11-14 03:42:54,563] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-14 03:42:54,571] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): load_data> on 2022-11-13T12:00:00+00:00
+[2022-11-14 03:42:54,575] {standard_task_runner.py:51} INFO - Started process 12579 to run task
+[2022-11-14 03:42:54,578] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'load_data', '2022-11-13T12:00:00+00:00', '--job-id', '13', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpxghh3ev5']
+[2022-11-14 03:42:54,581] {standard_task_runner.py:76} INFO - Job 13: Subtask load_data
+[2022-11-14 03:42:54,626] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.load_data 2022-11-13T12:00:00+00:00 [running]> on host 676a9425fa5f
+[2022-11-14 03:42:54,671] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-13T12:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-13T12:00:00+00:00
+[2022-11-14 03:42:54,834] {taskinstance.py:1396} ERROR - Execution failed on sql 'SELECT name FROM sqlite_master WHERE type='table' AND name=?;': relation "sqlite_master" does not exist
+LINE 1: SELECT name FROM sqlite_master WHERE type='table' AND name=?...
+                         ^
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/sql.py", line 1681, in execute
+    cur.execute(*args, **kwargs)
+psycopg2.errors.UndefinedTable: relation "sqlite_master" does not exist
+LINE 1: SELECT name FROM sqlite_master WHERE type='table' AND name=?...
+                         ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1086, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1260, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1300, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/pyspark_bmi.py", line 89, in load_data_to_postgresql
+    df.to_sql('weight_height_criteria', conn, if_exists='replace', index=False)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/generic.py", line 2615, in to_sql
+    method=method,
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/sql.py", line 598, in to_sql
+    method=method,
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/sql.py", line 1827, in to_sql
+    table.create()
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/sql.py", line 721, in create
+    if self.exists():
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/sql.py", line 708, in exists
+    return self.pd_sql.has_table(self.name, self.schema)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/sql.py", line 1838, in has_table
+    return len(self.execute(query, [name]).fetchall()) > 0
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/sql.py", line 1693, in execute
+    raise ex from exc
+pandas.io.sql.DatabaseError: Execution failed on sql 'SELECT name FROM sqlite_master WHERE type='table' AND name=?;': relation "sqlite_master" does not exist
+LINE 1: SELECT name FROM sqlite_master WHERE type='table' AND name=?...
+                         ^
+
+[2022-11-14 03:42:54,840] {taskinstance.py:1440} INFO - Marking task as FAILED. dag_id=pyspark_bmi, task_id=load_data, execution_date=20221113T120000, start_date=20221114T034254, end_date=20221114T034254
+[2022-11-14 03:42:54,870] {local_task_job.py:118} INFO - Task exited with return code 1

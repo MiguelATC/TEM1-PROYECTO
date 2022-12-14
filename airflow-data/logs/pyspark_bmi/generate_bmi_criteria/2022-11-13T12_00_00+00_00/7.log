@@ -1,0 +1,24 @@
+[2022-11-14 04:06:58,087] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.generate_bmi_criteria 2022-11-13T12:00:00+00:00 [queued]>
+[2022-11-14 04:06:58,106] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.generate_bmi_criteria 2022-11-13T12:00:00+00:00 [queued]>
+[2022-11-14 04:06:58,106] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-14 04:06:58,107] {taskinstance.py:1018} INFO - Starting attempt 7 of 7
+[2022-11-14 04:06:58,107] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-14 04:06:58,116] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): generate_bmi_criteria> on 2022-11-13T12:00:00+00:00
+[2022-11-14 04:06:58,122] {standard_task_runner.py:51} INFO - Started process 55409 to run task
+[2022-11-14 04:06:58,125] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'generate_bmi_criteria', '2022-11-13T12:00:00+00:00', '--job-id', '30', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmp53u0aa_8']
+[2022-11-14 04:06:58,128] {standard_task_runner.py:76} INFO - Job 30: Subtask generate_bmi_criteria
+[2022-11-14 04:06:58,173] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.generate_bmi_criteria 2022-11-13T12:00:00+00:00 [running]> on host 676a9425fa5f
+[2022-11-14 04:06:58,217] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=generate_bmi_criteria
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-13T12:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-13T12:00:00+00:00
+[2022-11-14 04:06:58,231] {pyspark_bmi.py:60} INFO - Job submitted successfully. Driver id is driver-20221114040658-0006
+[2022-11-14 04:07:14,365] {pyspark_bmi.py:73} INFO - Job is finished. Moving to next task
+[2022-11-14 04:07:14,365] {python.py:118} INFO - Done. Returned value was: None
+[2022-11-14 04:07:14,375] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=generate_bmi_criteria, execution_date=20221113T120000, start_date=20221114T040658, end_date=20221114T040714
+[2022-11-14 04:07:14,402] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-14 04:07:14,417] {local_task_job.py:118} INFO - Task exited with return code 0

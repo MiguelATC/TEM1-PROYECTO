@@ -1,0 +1,333 @@
+[2022-12-13 04:41:20,244] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:41:20,258] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:41:20,258] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:41:20,259] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 04:41:20,259] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:41:20,268] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): download_dataset> on 2022-11-14T15:00:00+00:00
+[2022-12-13 04:41:20,276] {standard_task_runner.py:51} INFO - Started process 1912 to run task
+[2022-12-13 04:41:20,278] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'download_dataset', '2022-11-14T15:00:00+00:00', '--job-id', '3', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpghjhgrzl']
+[2022-12-13 04:41:20,281] {standard_task_runner.py:76} INFO - Job 3: Subtask download_dataset
+[2022-12-13 04:41:20,316] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [running]> on host 1990905622a9
+[2022-12-13 04:41:20,353] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=download_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 04:41:21,657] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 04:41:21,665] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=download_dataset, execution_date=20221114T150000, start_date=20221213T044120, end_date=20221213T044121
+[2022-12-13 04:41:21,686] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 04:41:21,693] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 04:47:41,550] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:47:41,561] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:47:41,561] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:47:41,562] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 04:47:41,562] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:47:41,574] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): download_dataset> on 2022-11-14T15:00:00+00:00
+[2022-12-13 04:47:41,577] {standard_task_runner.py:51} INFO - Started process 1731 to run task
+[2022-12-13 04:47:41,579] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'download_dataset', '2022-11-14T15:00:00+00:00', '--job-id', '3', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpui4p6dd5']
+[2022-12-13 04:47:41,581] {standard_task_runner.py:76} INFO - Job 3: Subtask download_dataset
+[2022-12-13 04:47:41,618] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [running]> on host 457b414c86a4
+[2022-12-13 04:47:41,662] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=download_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 04:47:42,749] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 04:47:42,758] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=download_dataset, execution_date=20221114T150000, start_date=20221213T044741, end_date=20221213T044742
+[2022-12-13 04:47:42,779] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 04:47:42,795] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 04:53:44,161] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:53:44,171] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:53:44,172] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:53:44,172] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 04:53:44,172] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:53:44,184] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): download_dataset> on 2022-11-14T15:00:00+00:00
+[2022-12-13 04:53:44,188] {standard_task_runner.py:51} INFO - Started process 1506 to run task
+[2022-12-13 04:53:44,190] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'download_dataset', '2022-11-14T15:00:00+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpzsjpcgcx']
+[2022-12-13 04:53:44,191] {standard_task_runner.py:76} INFO - Job 5: Subtask download_dataset
+[2022-12-13 04:53:44,225] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [running]> on host 055fb06c03c6
+[2022-12-13 04:53:44,258] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=download_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 04:53:45,274] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 04:53:45,284] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=download_dataset, execution_date=20221114T150000, start_date=20221213T045344, end_date=20221213T045345
+[2022-12-13 04:53:45,306] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 04:53:45,325] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 06:26:49,111] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 06:26:49,126] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 06:26:49,126] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 06:26:49,126] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 06:26:49,126] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 06:26:49,133] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): download_dataset> on 2022-11-14T15:00:00+00:00
+[2022-12-13 06:26:49,137] {standard_task_runner.py:51} INFO - Started process 1971 to run task
+[2022-12-13 06:26:49,140] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'download_dataset', '2022-11-14T15:00:00+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmp3jj8m6bc']
+[2022-12-13 06:26:49,144] {standard_task_runner.py:76} INFO - Job 4: Subtask download_dataset
+[2022-12-13 06:26:49,183] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [running]> on host deeb3cfa4430
+[2022-12-13 06:26:49,220] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=download_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 06:26:51,256] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 06:26:51,264] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=download_dataset, execution_date=20221114T150000, start_date=20221213T062649, end_date=20221213T062651
+[2022-12-13 06:26:51,283] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 06:26:51,318] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 06:35:16,164] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 06:35:16,180] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 06:35:16,180] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 06:35:16,181] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 06:35:16,181] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 06:35:16,189] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): download_dataset> on 2022-11-14T15:00:00+00:00
+[2022-12-13 06:35:16,193] {standard_task_runner.py:51} INFO - Started process 2916 to run task
+[2022-12-13 06:35:16,195] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'download_dataset', '2022-11-14T15:00:00+00:00', '--job-id', '3', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpl8_jk1vx']
+[2022-12-13 06:35:16,197] {standard_task_runner.py:76} INFO - Job 3: Subtask download_dataset
+[2022-12-13 06:35:16,236] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [running]> on host b7822b6a2db4
+[2022-12-13 06:35:16,272] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=download_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 06:35:17,834] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 06:35:17,843] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=download_dataset, execution_date=20221114T150000, start_date=20221213T063516, end_date=20221213T063517
+[2022-12-13 06:35:17,866] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 06:35:17,892] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 07:00:48,157] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 07:00:48,177] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 07:00:48,178] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 07:00:48,178] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 07:00:48,178] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 07:00:48,188] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): download_dataset> on 2022-11-14T15:00:00+00:00
+[2022-12-13 07:00:48,193] {standard_task_runner.py:51} INFO - Started process 1872 to run task
+[2022-12-13 07:00:48,195] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'download_dataset', '2022-11-14T15:00:00+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpqbt0lkvg']
+[2022-12-13 07:00:48,197] {standard_task_runner.py:76} INFO - Job 4: Subtask download_dataset
+[2022-12-13 07:00:48,241] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [running]> on host 333952be7749
+[2022-12-13 07:00:48,282] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=download_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 07:00:49,548] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 07:00:49,557] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=download_dataset, execution_date=20221114T150000, start_date=20221213T070048, end_date=20221213T070049
+[2022-12-13 07:00:49,581] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 07:00:49,611] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 07:12:24,740] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 07:12:24,752] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 07:12:24,753] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 07:12:24,753] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 07:12:24,753] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 07:12:24,759] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): download_dataset> on 2022-11-14T15:00:00+00:00
+[2022-12-13 07:12:24,762] {standard_task_runner.py:51} INFO - Started process 1371 to run task
+[2022-12-13 07:12:24,765] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'download_dataset', '2022-11-14T15:00:00+00:00', '--job-id', '3', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpxl13k_xd']
+[2022-12-13 07:12:24,767] {standard_task_runner.py:76} INFO - Job 3: Subtask download_dataset
+[2022-12-13 07:12:24,797] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [running]> on host f5c4f12786d0
+[2022-12-13 07:12:24,836] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=download_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 07:12:26,454] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 07:12:26,463] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=download_dataset, execution_date=20221114T150000, start_date=20221213T071224, end_date=20221213T071226
+[2022-12-13 07:12:26,488] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 07:12:26,501] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 15:33:57,403] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 15:33:57,418] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 15:33:57,419] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 15:33:57,419] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 15:33:57,419] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 15:33:57,426] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): download_dataset> on 2022-11-14T15:00:00+00:00
+[2022-12-13 15:33:57,430] {standard_task_runner.py:51} INFO - Started process 2151 to run task
+[2022-12-13 15:33:57,433] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'download_dataset', '2022-11-14T15:00:00+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpt964nn36']
+[2022-12-13 15:33:57,435] {standard_task_runner.py:76} INFO - Job 4: Subtask download_dataset
+[2022-12-13 15:33:57,472] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [running]> on host 561e4a6a919b
+[2022-12-13 15:33:57,522] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=download_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 15:33:58,565] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 15:33:58,575] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=download_dataset, execution_date=20221114T150000, start_date=20221213T153357, end_date=20221213T153358
+[2022-12-13 15:33:58,598] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 15:33:58,608] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 20:09:31,998] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 20:09:32,032] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 20:09:32,033] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 20:09:32,033] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 20:09:32,033] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 20:09:32,061] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): download_dataset> on 2022-11-14T15:00:00+00:00
+[2022-12-13 20:09:32,064] {standard_task_runner.py:51} INFO - Started process 3242 to run task
+[2022-12-13 20:09:32,066] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'download_dataset', '2022-11-14T15:00:00+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpumjqihp1']
+[2022-12-13 20:09:32,068] {standard_task_runner.py:76} INFO - Job 4: Subtask download_dataset
+[2022-12-13 20:09:32,107] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [running]> on host 1ccb25249778
+[2022-12-13 20:09:32,141] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=download_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 20:09:33,367] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 20:09:33,376] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=download_dataset, execution_date=20221114T150000, start_date=20221213T200932, end_date=20221213T200933
+[2022-12-13 20:09:33,401] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 20:09:33,442] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 20:14:53,994] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 20:14:54,011] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 20:14:54,011] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 20:14:54,012] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 20:14:54,012] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 20:14:54,020] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): download_dataset> on 2022-11-14T15:00:00+00:00
+[2022-12-13 20:14:54,024] {standard_task_runner.py:51} INFO - Started process 1361 to run task
+[2022-12-13 20:14:54,026] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'download_dataset', '2022-11-14T15:00:00+00:00', '--job-id', '3', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpc7fjyln4']
+[2022-12-13 20:14:54,028] {standard_task_runner.py:76} INFO - Job 3: Subtask download_dataset
+[2022-12-13 20:14:54,063] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [running]> on host d0d005b5ea68
+[2022-12-13 20:14:54,102] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=download_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 20:14:55,998] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 20:14:56,008] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=download_dataset, execution_date=20221114T150000, start_date=20221213T201453, end_date=20221213T201456
+[2022-12-13 20:14:56,030] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 20:14:56,046] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 20:59:07,649] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 20:59:07,665] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 20:59:07,666] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 20:59:07,667] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 20:59:07,667] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 20:59:07,673] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): download_dataset> on 2022-11-14T15:00:00+00:00
+[2022-12-13 20:59:07,677] {standard_task_runner.py:51} INFO - Started process 1377 to run task
+[2022-12-13 20:59:07,679] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'download_dataset', '2022-11-14T15:00:00+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpqxy61p_b']
+[2022-12-13 20:59:07,680] {standard_task_runner.py:76} INFO - Job 4: Subtask download_dataset
+[2022-12-13 20:59:07,713] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [running]> on host 2a0293b83d2d
+[2022-12-13 20:59:07,751] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=download_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 20:59:08,720] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 20:59:08,729] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=download_dataset, execution_date=20221114T150000, start_date=20221213T205907, end_date=20221213T205908
+[2022-12-13 20:59:08,752] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 20:59:08,773] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 21:16:35,293] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 21:16:35,310] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 21:16:35,310] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 21:16:35,310] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 21:16:35,311] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 21:16:35,318] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): download_dataset> on 2022-11-14T15:00:00+00:00
+[2022-12-13 21:16:35,323] {standard_task_runner.py:51} INFO - Started process 1451 to run task
+[2022-12-13 21:16:35,326] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'download_dataset', '2022-11-14T15:00:00+00:00', '--job-id', '3', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpreiiw7nl']
+[2022-12-13 21:16:35,329] {standard_task_runner.py:76} INFO - Job 3: Subtask download_dataset
+[2022-12-13 21:16:35,364] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [running]> on host 07717ad0168e
+[2022-12-13 21:16:35,405] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=download_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 21:16:36,885] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 21:16:36,895] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=download_dataset, execution_date=20221114T150000, start_date=20221213T211635, end_date=20221213T211636
+[2022-12-13 21:16:36,917] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 21:16:36,942] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 21:26:45,256] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 21:26:45,271] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 21:26:45,272] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 21:26:45,272] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 21:26:45,272] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 21:26:45,292] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): download_dataset> on 2022-11-14T15:00:00+00:00
+[2022-12-13 21:26:45,297] {standard_task_runner.py:51} INFO - Started process 1561 to run task
+[2022-12-13 21:26:45,301] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'download_dataset', '2022-11-14T15:00:00+00:00', '--job-id', '3', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpvvolspay']
+[2022-12-13 21:26:45,305] {standard_task_runner.py:76} INFO - Job 3: Subtask download_dataset
+[2022-12-13 21:26:45,347] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [running]> on host 28614e99b51d
+[2022-12-13 21:26:45,392] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=download_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 21:26:46,637] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 21:26:46,645] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=download_dataset, execution_date=20221114T150000, start_date=20221213T212645, end_date=20221213T212646
+[2022-12-13 21:26:46,667] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 21:26:46,676] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 22:20:42,268] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 22:20:42,288] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 22:20:42,288] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 22:20:42,288] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 22:20:42,289] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 22:20:42,295] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): download_dataset> on 2022-11-14T15:00:00+00:00
+[2022-12-13 22:20:42,300] {standard_task_runner.py:51} INFO - Started process 1468 to run task
+[2022-12-13 22:20:42,304] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'download_dataset', '2022-11-14T15:00:00+00:00', '--job-id', '3', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmp91e9x7qg']
+[2022-12-13 22:20:42,308] {standard_task_runner.py:76} INFO - Job 3: Subtask download_dataset
+[2022-12-13 22:20:42,350] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [running]> on host ea0ed9d3a445
+[2022-12-13 22:20:42,390] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=download_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 22:20:43,492] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 22:20:43,501] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=download_dataset, execution_date=20221114T150000, start_date=20221213T222042, end_date=20221213T222043
+[2022-12-13 22:20:43,548] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 22:20:43,560] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 22:57:58,759] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 22:57:58,968] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 22:57:58,969] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 22:57:58,969] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 22:57:58,969] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 22:57:59,158] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): download_dataset> on 2022-11-14T15:00:00+00:00
+[2022-12-13 22:57:59,161] {standard_task_runner.py:51} INFO - Started process 1551 to run task
+[2022-12-13 22:57:59,163] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'download_dataset', '2022-11-14T15:00:00+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmplllxwaao']
+[2022-12-13 22:57:59,165] {standard_task_runner.py:76} INFO - Job 4: Subtask download_dataset
+[2022-12-13 22:57:59,378] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.download_dataset 2022-11-14T15:00:00+00:00 [running]> on host e696ef1fe0ba
+[2022-12-13 22:57:59,590] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=download_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 22:58:14,338] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 22:58:14,360] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=download_dataset, execution_date=20221114T150000, start_date=20221213T225758, end_date=20221213T225814
+[2022-12-13 22:58:14,382] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 22:58:14,382] {local_task_job.py:170} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2022-12-13 22:58:14,384] {process_utils.py:95} INFO - Sending Signals.SIGTERM to GPID 1551
+[2022-12-13 22:58:14,388] {process_utils.py:61} INFO - Process psutil.Process(pid=1551, status='terminated', exitcode=0, started='22:57:58') (1551) terminated with exit code 0
+[2022-12-13 22:58:14,389] {local_task_job.py:118} INFO - Task exited with return code 0

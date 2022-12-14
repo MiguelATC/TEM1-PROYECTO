@@ -1,0 +1,4 @@
+FROM docker.io/bitnami/spark:3.3
+#USER root
+#RUN apt-get update && apt-get install -y openssh-server && service ssh start
+RUN mkdir /tmp/spark-events && echo "spark.master.rest.enabled true" >> /opt/bitnami/spark/conf/spark-defaults.conf

@@ -1,0 +1,468 @@
+[2022-12-13 04:41:50,276] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:41:50,306] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:41:50,306] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:41:50,306] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 04:41:50,307] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:41:50,318] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): load_data> on 2022-11-14T15:00:00+00:00
+[2022-12-13 04:41:50,323] {standard_task_runner.py:51} INFO - Started process 2771 to run task
+[2022-12-13 04:41:50,325] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'load_data', '2022-11-14T15:00:00+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpb3yyetgg']
+[2022-12-13 04:41:50,328] {standard_task_runner.py:76} INFO - Job 5: Subtask load_data
+[2022-12-13 04:41:50,367] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [running]> on host 1990905622a9
+[2022-12-13 04:41:50,403] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 04:41:50,579] {logging_mixin.py:103} INFO -      Sexo             Criterio  Promedio IMC  Peso promedio
+0    Male        Obesidad leve     27.756955      85.322581
+1    Male            Bajo peso     16.836920      58.000000
+2    Male  Obesidad muy severa     51.055883     130.632075
+3    Male               Normal     22.905755      72.846154
+4    Male      Obesidad severa     35.456906     107.237288
+5  Female  Obesidad muy severa     49.646783     131.752137
+6  Female            Bajo peso     16.839550      57.000000
+7  Female      Obesidad severa     32.821129     102.084746
+8  Female               Normal     21.896739      64.880000
+9  Female        Obesidad leve     26.371612      80.285714
+[2022-12-13 04:41:50,580] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 04:41:50,588] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=load_data, execution_date=20221114T150000, start_date=20221213T044150, end_date=20221213T044150
+[2022-12-13 04:41:50,609] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 04:41:50,617] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 04:48:11,586] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:48:11,596] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:48:11,597] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:48:11,597] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 04:48:11,597] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:48:11,609] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): load_data> on 2022-11-14T15:00:00+00:00
+[2022-12-13 04:48:11,613] {standard_task_runner.py:51} INFO - Started process 2595 to run task
+[2022-12-13 04:48:11,615] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'load_data', '2022-11-14T15:00:00+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmp_75mo4d0']
+[2022-12-13 04:48:11,618] {standard_task_runner.py:76} INFO - Job 5: Subtask load_data
+[2022-12-13 04:48:11,653] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [running]> on host 457b414c86a4
+[2022-12-13 04:48:11,686] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 04:48:11,827] {logging_mixin.py:103} INFO -      Sexo             Criterio  Promedio IMC  Peso promedio
+0    Male        Obesidad leve     27.756955      85.322581
+1    Male            Bajo peso     16.836920      58.000000
+2    Male  Obesidad muy severa     51.055883     130.632075
+3    Male               Normal     22.905755      72.846154
+4    Male      Obesidad severa     35.456906     107.237288
+5  Female  Obesidad muy severa     49.646783     131.752137
+6  Female            Bajo peso     16.839550      57.000000
+7  Female      Obesidad severa     32.821129     102.084746
+8  Female               Normal     21.896739      64.880000
+9  Female        Obesidad leve     26.371612      80.285714
+[2022-12-13 04:48:11,828] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 04:48:11,835] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=load_data, execution_date=20221114T150000, start_date=20221213T044811, end_date=20221213T044811
+[2022-12-13 04:48:11,855] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 04:48:11,867] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 04:53:54,153] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:53:54,164] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 04:53:54,165] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:53:54,165] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 04:53:54,165] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 04:53:54,177] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): load_data> on 2022-11-14T15:00:00+00:00
+[2022-12-13 04:53:54,181] {standard_task_runner.py:51} INFO - Started process 1823 to run task
+[2022-12-13 04:53:54,183] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'load_data', '2022-11-14T15:00:00+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpw1hglh3c']
+[2022-12-13 04:53:54,185] {standard_task_runner.py:76} INFO - Job 6: Subtask load_data
+[2022-12-13 04:53:54,220] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [running]> on host 055fb06c03c6
+[2022-12-13 04:53:54,253] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 04:53:54,450] {logging_mixin.py:103} INFO -      Sexo             Criterio  Promedio IMC  Peso promedio
+0    Male        Obesidad leve     27.756955      85.322581
+1    Male            Bajo peso     16.836920      58.000000
+2    Male  Obesidad muy severa     51.055883     130.632075
+3    Male               Normal     22.905755      72.846154
+4    Male      Obesidad severa     35.456906     107.237288
+5  Female  Obesidad muy severa     49.646783     131.752137
+6  Female            Bajo peso     16.839550      57.000000
+7  Female      Obesidad severa     32.821129     102.084746
+8  Female               Normal     21.896739      64.880000
+9  Female        Obesidad leve     26.371612      80.285714
+[2022-12-13 04:53:54,450] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 04:53:54,461] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=load_data, execution_date=20221114T150000, start_date=20221213T045354, end_date=20221213T045354
+[2022-12-13 04:53:54,483] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 04:53:54,515] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 06:35:46,165] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 06:35:46,173] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 06:35:46,174] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 06:35:46,174] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 06:35:46,174] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 06:35:46,184] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): load_data> on 2022-11-14T15:00:00+00:00
+[2022-12-13 06:35:46,188] {standard_task_runner.py:51} INFO - Started process 3810 to run task
+[2022-12-13 06:35:46,190] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'load_data', '2022-11-14T15:00:00+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpw9kl6f56']
+[2022-12-13 06:35:46,192] {standard_task_runner.py:76} INFO - Job 5: Subtask load_data
+[2022-12-13 06:35:46,223] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [running]> on host b7822b6a2db4
+[2022-12-13 06:35:46,252] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 06:35:46,412] {logging_mixin.py:103} INFO - Empty DataFrame
+Columns: [Pais, Continente, Promedio IMC]
+Index: []
+[2022-12-13 06:35:46,413] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 06:35:46,421] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=load_data, execution_date=20221114T150000, start_date=20221213T063546, end_date=20221213T063546
+[2022-12-13 06:35:46,443] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 06:35:46,483] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 07:01:18,160] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 07:01:18,174] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 07:01:18,174] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 07:01:18,174] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 07:01:18,175] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 07:01:18,181] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): load_data> on 2022-11-14T15:00:00+00:00
+[2022-12-13 07:01:18,184] {standard_task_runner.py:51} INFO - Started process 2661 to run task
+[2022-12-13 07:01:18,187] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'load_data', '2022-11-14T15:00:00+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmp_4o0ng_z']
+[2022-12-13 07:01:18,189] {standard_task_runner.py:76} INFO - Job 6: Subtask load_data
+[2022-12-13 07:01:18,223] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [running]> on host 333952be7749
+[2022-12-13 07:01:18,260] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 07:01:18,471] {logging_mixin.py:103} INFO -                 Country  Confirmed
+0           Afghanistan      36263
+1               Albania       4880
+2               Algeria      27973
+3               Andorra        907
+4                Angola        950
+5   Antigua and Barbuda         86
+6             Argentina     167416
+7               Armenia      37390
+8             Australia      15303
+9               Austria      20558
+10           Azerbaijan      30446
+11              Bahamas        382
+12              Bahrain      39482
+13           Bangladesh     226225
+14             Barbados        110
+15              Belarus      67251
+16              Belgium      66428
+17               Belize         48
+18                Benin       1770
+19               Bhutan         99
+[2022-12-13 07:01:18,471] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 07:01:18,480] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=load_data, execution_date=20221114T150000, start_date=20221213T070118, end_date=20221213T070118
+[2022-12-13 07:01:18,501] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 07:01:18,520] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 07:12:54,758] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 07:12:54,773] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 07:12:54,773] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 07:12:54,773] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 07:12:54,774] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 07:12:54,781] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): load_data> on 2022-11-14T15:00:00+00:00
+[2022-12-13 07:12:54,785] {standard_task_runner.py:51} INFO - Started process 2290 to run task
+[2022-12-13 07:12:54,787] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'load_data', '2022-11-14T15:00:00+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmp_krvvi4p']
+[2022-12-13 07:12:54,789] {standard_task_runner.py:76} INFO - Job 5: Subtask load_data
+[2022-12-13 07:12:54,824] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [running]> on host f5c4f12786d0
+[2022-12-13 07:12:54,859] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 07:12:55,060] {logging_mixin.py:103} INFO -                 Country  Confirmed  Deaths  Recovered  Active WHORegion
+0           Afghanistan      36263    1269      25198    9796       106
+1               Albania       4880     144       2745    1991       117
+2               Algeria      27973    1163      18837    7973       616
+3               Andorra        907      52        803      52        10
+4                Angola        950      41        242     667        18
+5   Antigua and Barbuda         86       3         65      18         4
+6             Argentina     167416    3059      72575   91782      4890
+7               Armenia      37390     711      26665   10014        73
+8             Australia      15303     167       9311    5825       368
+9               Austria      20558     713      18246    1599        86
+10           Azerbaijan      30446     423      23242    6781       396
+11              Bahamas        382      11         91     280        40
+12              Bahrain      39482     141      36110    3231       351
+13           Bangladesh     226225    2965     125683   97577      2772
+14             Barbados        110       7         94       9         0
+15              Belarus      67251     538      60492    6221       119
+16              Belgium      66428    9822      17452   39154       402
+17               Belize         48       2         26      20         0
+18                Benin       1770      35       1036     699         0
+19               Bhutan         99       0         86      13         4
+[2022-12-13 07:12:55,060] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 07:12:55,070] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=load_data, execution_date=20221114T150000, start_date=20221213T071254, end_date=20221213T071255
+[2022-12-13 07:12:55,091] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 07:12:55,120] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 15:34:27,408] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 15:34:27,418] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 15:34:27,419] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 15:34:27,419] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 15:34:27,419] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 15:34:27,430] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): load_data> on 2022-11-14T15:00:00+00:00
+[2022-12-13 15:34:27,434] {standard_task_runner.py:51} INFO - Started process 3035 to run task
+[2022-12-13 15:34:27,437] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'load_data', '2022-11-14T15:00:00+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpgcrvkvtc']
+[2022-12-13 15:34:27,439] {standard_task_runner.py:76} INFO - Job 6: Subtask load_data
+[2022-12-13 15:34:27,472] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [running]> on host 561e4a6a919b
+[2022-12-13 15:34:27,502] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 15:34:27,713] {logging_mixin.py:103} INFO -                 Country  Confirmed  Deaths  Recovered  Active WHORegion
+0           Afghanistan      36263    1269      25198    9796       106
+1               Albania       4880     144       2745    1991       117
+2               Algeria      27973    1163      18837    7973       616
+3               Andorra        907      52        803      52        10
+4                Angola        950      41        242     667        18
+5   Antigua and Barbuda         86       3         65      18         4
+6             Argentina     167416    3059      72575   91782      4890
+7               Armenia      37390     711      26665   10014        73
+8             Australia      15303     167       9311    5825       368
+9               Austria      20558     713      18246    1599        86
+10           Azerbaijan      30446     423      23242    6781       396
+11              Bahamas        382      11         91     280        40
+12              Bahrain      39482     141      36110    3231       351
+13           Bangladesh     226225    2965     125683   97577      2772
+14             Barbados        110       7         94       9         0
+15              Belarus      67251     538      60492    6221       119
+16              Belgium      66428    9822      17452   39154       402
+17               Belize         48       2         26      20         0
+18                Benin       1770      35       1036     699         0
+19               Bhutan         99       0         86      13         4
+[2022-12-13 15:34:27,714] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 15:34:27,722] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=load_data, execution_date=20221114T150000, start_date=20221213T153427, end_date=20221213T153427
+[2022-12-13 15:34:27,743] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 15:34:27,769] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 20:15:24,028] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 20:15:24,044] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 20:15:24,045] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 20:15:24,045] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 20:15:24,045] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 20:15:24,053] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): load_data> on 2022-11-14T15:00:00+00:00
+[2022-12-13 20:15:24,058] {standard_task_runner.py:51} INFO - Started process 2220 to run task
+[2022-12-13 20:15:24,060] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'load_data', '2022-11-14T15:00:00+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpkvh2ruos']
+[2022-12-13 20:15:24,062] {standard_task_runner.py:76} INFO - Job 5: Subtask load_data
+[2022-12-13 20:15:24,099] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [running]> on host d0d005b5ea68
+[2022-12-13 20:15:24,135] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 20:15:24,375] {logging_mixin.py:103} INFO -                 Country  Confirmed  Deaths  Recovered  Active
+0           Afghanistan      36263    1269      25198    9796
+1               Albania       4880     144       2745    1991
+2               Algeria      27973    1163      18837    7973
+3               Andorra        907      52        803      52
+4                Angola        950      41        242     667
+5   Antigua and Barbuda         86       3         65      18
+6             Argentina     167416    3059      72575   91782
+7               Armenia      37390     711      26665   10014
+8             Australia      15303     167       9311    5825
+9               Austria      20558     713      18246    1599
+10           Azerbaijan      30446     423      23242    6781
+11              Bahamas        382      11         91     280
+12              Bahrain      39482     141      36110    3231
+13           Bangladesh     226225    2965     125683   97577
+14             Barbados        110       7         94       9
+15              Belarus      67251     538      60492    6221
+16              Belgium      66428    9822      17452   39154
+17               Belize         48       2         26      20
+18                Benin       1770      35       1036     699
+19               Bhutan         99       0         86      13
+[2022-12-13 20:15:24,376] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 20:15:24,385] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=load_data, execution_date=20221114T150000, start_date=20221213T201524, end_date=20221213T201524
+[2022-12-13 20:15:24,406] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 20:15:24,432] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 21:17:05,293] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 21:17:05,307] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 21:17:05,307] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 21:17:05,307] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 21:17:05,307] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 21:17:05,314] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): load_data> on 2022-11-14T15:00:00+00:00
+[2022-12-13 21:17:05,317] {standard_task_runner.py:51} INFO - Started process 2395 to run task
+[2022-12-13 21:17:05,319] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'load_data', '2022-11-14T15:00:00+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpixuzuzih']
+[2022-12-13 21:17:05,321] {standard_task_runner.py:76} INFO - Job 5: Subtask load_data
+[2022-12-13 21:17:05,351] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [running]> on host 07717ad0168e
+[2022-12-13 21:17:05,379] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 21:17:05,619] {logging_mixin.py:103} INFO -                 Country  Confirmed  Deaths  Recovered  Active WHORegion
+0           Afghanistan      36263    1269      25198    9796       106
+1               Albania       4880     144       2745    1991       117
+2               Algeria      27973    1163      18837    7973       616
+3               Andorra        907      52        803      52        10
+4                Angola        950      41        242     667        18
+5   Antigua and Barbuda         86       3         65      18         4
+6             Argentina     167416    3059      72575   91782      4890
+7               Armenia      37390     711      26665   10014        73
+8             Australia      15303     167       9311    5825       368
+9               Austria      20558     713      18246    1599        86
+10           Azerbaijan      30446     423      23242    6781       396
+11              Bahamas        382      11         91     280        40
+12              Bahrain      39482     141      36110    3231       351
+13           Bangladesh     226225    2965     125683   97577      2772
+14             Barbados        110       7         94       9         0
+15              Belarus      67251     538      60492    6221       119
+16              Belgium      66428    9822      17452   39154       402
+17               Belize         48       2         26      20         0
+18                Benin       1770      35       1036     699         0
+19               Bhutan         99       0         86      13         4
+[2022-12-13 21:17:05,619] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 21:17:05,627] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=load_data, execution_date=20221114T150000, start_date=20221213T211705, end_date=20221213T211705
+[2022-12-13 21:17:05,646] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 21:17:05,692] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 21:27:25,193] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 21:27:25,201] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 21:27:25,202] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 21:27:25,202] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 21:27:25,202] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 21:27:25,211] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): load_data> on 2022-11-14T15:00:00+00:00
+[2022-12-13 21:27:25,215] {standard_task_runner.py:51} INFO - Started process 2760 to run task
+[2022-12-13 21:27:25,217] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'load_data', '2022-11-14T15:00:00+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpmec4u973']
+[2022-12-13 21:27:25,219] {standard_task_runner.py:76} INFO - Job 5: Subtask load_data
+[2022-12-13 21:27:25,249] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [running]> on host 28614e99b51d
+[2022-12-13 21:27:25,277] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 21:27:25,510] {logging_mixin.py:103} INFO -                 Country  Confirmed  Deaths  Recovered  Active              WHORegion
+0           Afghanistan      36263    1269      25198    9796  Eastern Mediterranean
+1               Albania       4880     144       2745    1991                 Europe
+2               Algeria      27973    1163      18837    7973                 Africa
+3               Andorra        907      52        803      52                 Europe
+4                Angola        950      41        242     667                 Africa
+5   Antigua and Barbuda         86       3         65      18               Americas
+6             Argentina     167416    3059      72575   91782               Americas
+7               Armenia      37390     711      26665   10014                 Europe
+8             Australia      15303     167       9311    5825        Western Pacific
+9               Austria      20558     713      18246    1599                 Europe
+10           Azerbaijan      30446     423      23242    6781                 Europe
+11              Bahamas        382      11         91     280               Americas
+12              Bahrain      39482     141      36110    3231  Eastern Mediterranean
+13           Bangladesh     226225    2965     125683   97577        South-East Asia
+14             Barbados        110       7         94       9               Americas
+15              Belarus      67251     538      60492    6221                 Europe
+16              Belgium      66428    9822      17452   39154                 Europe
+17               Belize         48       2         26      20               Americas
+18                Benin       1770      35       1036     699                 Africa
+19               Bhutan         99       0         86      13        South-East Asia
+[2022-12-13 21:27:25,510] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 21:27:25,518] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=load_data, execution_date=20221114T150000, start_date=20221213T212725, end_date=20221213T212725
+[2022-12-13 21:27:25,537] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 21:27:25,549] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 22:21:12,283] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 22:21:12,293] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 22:21:12,293] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 22:21:12,294] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 22:21:12,294] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 22:21:12,307] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): load_data> on 2022-11-14T15:00:00+00:00
+[2022-12-13 22:21:12,310] {standard_task_runner.py:51} INFO - Started process 2282 to run task
+[2022-12-13 22:21:12,312] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'load_data', '2022-11-14T15:00:00+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmp_wcf21yb']
+[2022-12-13 22:21:12,317] {standard_task_runner.py:76} INFO - Job 5: Subtask load_data
+[2022-12-13 22:21:12,351] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [running]> on host ea0ed9d3a445
+[2022-12-13 22:21:12,383] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 22:21:12,629] {logging_mixin.py:103} INFO -                 Country  Confirmed  Deaths  Recovered  Active              WHORegion
+0           Afghanistan      36263    1269      25198    9796  Eastern Mediterranean
+1               Albania       4880     144       2745    1991                 Europe
+2               Algeria      27973    1163      18837    7973                 Africa
+3               Andorra        907      52        803      52                 Europe
+4                Angola        950      41        242     667                 Africa
+5   Antigua and Barbuda         86       3         65      18               Americas
+6             Argentina     167416    3059      72575   91782               Americas
+7               Armenia      37390     711      26665   10014                 Europe
+8             Australia      15303     167       9311    5825        Western Pacific
+9               Austria      20558     713      18246    1599                 Europe
+10           Azerbaijan      30446     423      23242    6781                 Europe
+11              Bahamas        382      11         91     280               Americas
+12              Bahrain      39482     141      36110    3231  Eastern Mediterranean
+13           Bangladesh     226225    2965     125683   97577        South-East Asia
+14             Barbados        110       7         94       9               Americas
+15              Belarus      67251     538      60492    6221                 Europe
+16              Belgium      66428    9822      17452   39154                 Europe
+17               Belize         48       2         26      20               Americas
+18                Benin       1770      35       1036     699                 Africa
+19               Bhutan         99       0         86      13        South-East Asia
+[2022-12-13 22:21:12,629] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 22:21:12,639] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=load_data, execution_date=20221114T150000, start_date=20221213T222112, end_date=20221213T222112
+[2022-12-13 22:21:12,661] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 22:21:12,691] {local_task_job.py:118} INFO - Task exited with return code 0
+[2022-12-13 22:58:48,340] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 22:58:48,349] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [queued]>
+[2022-12-13 22:58:48,349] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 22:58:48,350] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-12-13 22:58:48,350] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-13 22:58:48,360] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): load_data> on 2022-11-14T15:00:00+00:00
+[2022-12-13 22:58:48,363] {standard_task_runner.py:51} INFO - Started process 2775 to run task
+[2022-12-13 22:58:48,365] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'load_data', '2022-11-14T15:00:00+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmprwlzmea0']
+[2022-12-13 22:58:48,367] {standard_task_runner.py:76} INFO - Job 6: Subtask load_data
+[2022-12-13 22:58:48,403] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.load_data 2022-11-14T15:00:00+00:00 [running]> on host e696ef1fe0ba
+[2022-12-13 22:58:48,435] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T15:00:00+00:00
+[2022-12-13 22:59:40,936] {logging_mixin.py:103} INFO -    iso_code continent     location       date  total_cases  total_deaths
+0       AFG      Asia  Afghanistan  2/24/2020          5.0           NaN
+1       AFG      Asia  Afghanistan  2/25/2020          5.0           NaN
+2       AFG      Asia  Afghanistan  2/26/2020          5.0           NaN
+3       AFG      Asia  Afghanistan  2/27/2020          5.0           NaN
+4       AFG      Asia  Afghanistan  2/28/2020          5.0           NaN
+5       AFG      Asia  Afghanistan  2/29/2020          5.0           NaN
+6       AFG      Asia  Afghanistan   3/1/2020          5.0           NaN
+7       AFG      Asia  Afghanistan   3/2/2020          5.0           NaN
+8       AFG      Asia  Afghanistan   3/3/2020          5.0           NaN
+9       AFG      Asia  Afghanistan   3/4/2020          5.0           NaN
+10      AFG      Asia  Afghanistan   3/5/2020          5.0           NaN
+11      AFG      Asia  Afghanistan   3/6/2020          5.0           NaN
+12      AFG      Asia  Afghanistan   3/7/2020          8.0           NaN
+13      AFG      Asia  Afghanistan   3/8/2020          8.0           NaN
+14      AFG      Asia  Afghanistan   3/9/2020          8.0           NaN
+15      AFG      Asia  Afghanistan  3/10/2020          8.0           NaN
+16      AFG      Asia  Afghanistan  3/11/2020         11.0           NaN
+17      AFG      Asia  Afghanistan  3/12/2020         11.0           NaN
+18      AFG      Asia  Afghanistan  3/13/2020         11.0           NaN
+19      AFG      Asia  Afghanistan  3/14/2020         14.0           NaN
+[2022-12-13 22:59:40,951] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-13 22:59:40,964] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=load_data, execution_date=20221114T150000, start_date=20221213T225848, end_date=20221213T225940
+[2022-12-13 22:59:41,002] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-13 22:59:41,037] {local_task_job.py:118} INFO - Task exited with return code 0

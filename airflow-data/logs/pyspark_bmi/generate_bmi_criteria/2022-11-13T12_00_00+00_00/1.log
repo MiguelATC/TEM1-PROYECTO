@@ -1,0 +1,59 @@
+[2022-11-14 01:57:06,899] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.generate_bmi_criteria 2022-11-13T12:00:00+00:00 [queued]>
+[2022-11-14 01:57:06,913] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.generate_bmi_criteria 2022-11-13T12:00:00+00:00 [queued]>
+[2022-11-14 01:57:06,913] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-14 01:57:06,913] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-11-14 01:57:06,913] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-14 01:57:06,925] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): generate_bmi_criteria> on 2022-11-13T12:00:00+00:00
+[2022-11-14 01:57:06,930] {standard_task_runner.py:51} INFO - Started process 3956 to run task
+[2022-11-14 01:57:06,933] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'generate_bmi_criteria', '2022-11-13T12:00:00+00:00', '--job-id', '3', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpmtld9zh9']
+[2022-11-14 01:57:06,936] {standard_task_runner.py:76} INFO - Job 3: Subtask generate_bmi_criteria
+[2022-11-14 01:57:06,976] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.generate_bmi_criteria 2022-11-13T12:00:00+00:00 [running]> on host 6f0683b4a09b
+[2022-11-14 01:57:07,022] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=generate_bmi_criteria
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-13T12:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-13T12:00:00+00:00
+[2022-11-14 01:57:07,839] {taskinstance.py:1396} ERROR - 'driverStatus'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1086, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1260, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1300, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/pyspark_bmi.py", line 52, in generate_bmi_criteria_spark
+    if res['driverStatus'] == 'FINISHED':
+KeyError: 'driverStatus'
+[2022-11-14 01:57:07,841] {taskinstance.py:1440} INFO - Marking task as FAILED. dag_id=pyspark_bmi, task_id=generate_bmi_criteria, execution_date=20221113T120000, start_date=20221114T015706, end_date=20221114T015707
+[2022-11-14 01:57:07,919] {local_task_job.py:118} INFO - Task exited with return code 1
+[2022-11-14 03:36:26,357] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.generate_bmi_criteria 2022-11-13T12:00:00+00:00 [queued]>
+[2022-11-14 03:36:26,368] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.generate_bmi_criteria 2022-11-13T12:00:00+00:00 [queued]>
+[2022-11-14 03:36:26,368] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-14 03:36:26,368] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-11-14 03:36:26,368] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-14 03:36:26,381] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): generate_bmi_criteria> on 2022-11-13T12:00:00+00:00
+[2022-11-14 03:36:26,385] {standard_task_runner.py:51} INFO - Started process 1448 to run task
+[2022-11-14 03:36:26,388] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'generate_bmi_criteria', '2022-11-13T12:00:00+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpxnyvqwc0']
+[2022-11-14 03:36:26,391] {standard_task_runner.py:76} INFO - Job 4: Subtask generate_bmi_criteria
+[2022-11-14 03:36:26,437] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.generate_bmi_criteria 2022-11-13T12:00:00+00:00 [running]> on host 676a9425fa5f
+[2022-11-14 03:36:26,487] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=generate_bmi_criteria
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-13T12:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-13T12:00:00+00:00
+[2022-11-14 03:36:27,137] {pyspark_bmi.py:51} INFO - Job submitted successfully. Driver id is driver-20221114033626-0000
+[2022-11-14 03:36:58,988] {pyspark_bmi.py:64} INFO - Job is finished. Moving to next task
+[2022-11-14 03:36:58,988] {python.py:118} INFO - Done. Returned value was: None
+[2022-11-14 03:36:59,060] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=generate_bmi_criteria, execution_date=20221113T120000, start_date=20221114T033626, end_date=20221114T033659
+[2022-11-14 03:36:59,349] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-14 03:36:59,361] {local_task_job.py:118} INFO - Task exited with return code 0

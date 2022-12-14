@@ -1,0 +1,22 @@
+[2022-11-14 23:09:26,521] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T18:00:00+00:00 [queued]>
+[2022-11-14 23:09:26,531] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T18:00:00+00:00 [queued]>
+[2022-11-14 23:09:26,531] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-14 23:09:26,531] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2022-11-14 23:09:26,531] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-14 23:09:26,544] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): send_data_to_s3> on 2022-11-14T18:00:00+00:00
+[2022-11-14 23:09:26,549] {standard_task_runner.py:51} INFO - Started process 5108 to run task
+[2022-11-14 23:09:26,552] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'pyspark_bmi', 'send_data_to_s3', '2022-11-14T18:00:00+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_bmi.py', '--cfg-path', '/tmp/tmpfe8m6hd1']
+[2022-11-14 23:09:26,555] {standard_task_runner.py:76} INFO - Job 6: Subtask send_data_to_s3
+[2022-11-14 23:09:26,603] {logging_mixin.py:103} INFO - Running <TaskInstance: pyspark_bmi.send_data_to_s3 2022-11-14T18:00:00+00:00 [running]> on host d72ae9b357db
+[2022-11-14 23:09:26,648] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pyspark_bmi
+AIRFLOW_CTX_TASK_ID=send_data_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-14T18:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2022-11-14T18:00:00+00:00
+[2022-11-14 23:09:28,056] {python.py:118} INFO - Done. Returned value was: None
+[2022-11-14 23:09:28,066] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=pyspark_bmi, task_id=send_data_to_s3, execution_date=20221114T180000, start_date=20221114T230926, end_date=20221114T230928
+[2022-11-14 23:09:28,092] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-14 23:09:28,127] {local_task_job.py:118} INFO - Task exited with return code 0
